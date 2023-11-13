@@ -1,0 +1,214 @@
+* {
+    /* border: 1px solid red; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(235, 249, 255);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(235, 249, 255);
+    position: fixed;
+    top: 0px;
+    height: 150px;
+}
+
+.nav-label {
+    font-size: 2em;
+    margin-left: -110px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    /* margin-left: 50%; */
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 615px;
+    margin-top: 45px;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: navy;
+}
+
+a:hover {
+    color: black;
+}
+
+.background {
+    width: 100%;
+    position: flex;
+    margin-top: -200px;
+    background-color: rgb(205, 236, 249);
+}
+
+.neighborhood-welcome {
+    height: 10em;
+    background-color:rgb(205, 236, 249) ;
+    justify-content: center;
+    align-items: center;
+    color: navy;
+    display: flex;
+    font-size: 3em;
+}
+
+.gallery-head {
+    margin-top: 100px;
+    color: navy;
+    font-size: 2em;
+    margin-left: 660px;
+    padding-bottom: 70px;
+}
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-gap: 15px;
+}
+
+.box {
+    object-fit: cover;
+    max-width: 300px;
+    height: auto;
+    background-color: rgb(235, 249, 255);
+}
+
+.grid-image {
+    object-fit: cover;
+    max-width: 300px;
+    height: auto;
+}
+
+.grid-text {
+    text-align: center;
+    font-size: 1em;
+}
+
+.schedule {
+    color: navy;
+    margin-top: 5%;
+}
+
+.schedule-container {
+    background-color: rgb(205, 236, 249);
+    padding: 5%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td, th {
+    border: 2px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.map {
+    height: 400px;
+    width: 100%;
+}
+
+.map-heading {
+    font-size: 2em;
+    padding-left: 575px;
+    color: navy;
+}
+
+.mapimg {
+    height: 300px;
+    padding-left: 500px;
+
+}
+
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: rgb(205, 236, 249);
+    color: navy;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 0.8em;
+    padding-left: 10px;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 15px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 0.8em;
+}
+
+
+
+
+

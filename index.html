@@ -1,0 +1,171 @@
+<!-- Your next client is asking for a landing page for a park
+ - this can be a neighborhood park or national park, up to you. 
+ Bootstrap will be required for this project. Include a navbar, 
+ a photo gallery for the park, and a map image for the park location 
+ (this doesn't need to be real). Feel free to use dribbble.com as 
+ a resource for layout ideas. 
+
+
+When you're done, commit the project to Github and submit the link here. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<script src="https://kit.fontawesome.com/4bf8b1fe3b.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<title>Neighborhood Park</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-container">
+            <div class="navbar-brand">
+                <a href="#" class="nav-label">Neighborhood Park</a>
+            </div>
+            <div class="navbar-list">
+                <ul>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pool.html" class="nav-link">Neighborhood Pool</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="hoa.html" class="nav-link">HOA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Landing Tile -->
+    <section class="landing-page-area-one">
+        <h1 class="neighborhood-welcome">Welcome to Neighborhood Park</h1>
+        <div>
+            <img src="images/mike-benna-SBiVq9eWEtQ-unsplash.jpg" alt="photo of neighborhood" class="background">
+        </div>
+    </section>
+
+<!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <div class="gallery-head">
+            <h1>Gallery</h1>
+        </div>
+        <div class="wrap-container">
+            <div class="wrapper">
+                <div class="box">
+                    <img src="images/azgan-mjeshtri-W0lNN2WvaEA-unsplash.jpg" alt="fall photo with fallen leaves" class="grid-image">
+                    <a href="#"><h3 class="grid-text">Scott Johns, Maple St.</h3></a>
+                </div>
+                <div class="box">
+                    <img src="images/fernando-torres-Qyv-yxExIbM-unsplash.jpg" alt="summertime at the pool" class="grid-image">
+                    <a href="#"><h3 class="grid-text">Hilary Cantor, Oak St.</h3></a>
+                </div>
+                <div class="box">
+                    <img src="images/nathan-dumlao-P5MXtYfgmmw-unsplash.jpg" alt="kids sitting outside the door" class="grid-image">
+                    <a href="#"><h3 class="grid-text">Mrs. Guss, Cherry St.</h3></a>
+                </div>
+                <div class="box">
+                    <img src="images/victor-malyushev-TuKjDq44tQw-unsplash.jpg" alt="large park on summer day" class="grid-image">
+                    <a href="#"><h3 class="grid-text">Frederick Williams, Sycamore St</h3></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scheule -->
+    <section class="schedule" id="schedule">
+        <div class="schedule-container">
+            <h2>Neighborhood Schedule</h2>
+            <table>
+                <tr>
+                    <th>Meeting</th>
+                    <th>Details</th>
+                    <th>Calendar</th>
+                </tr>
+                <tr>
+                    <td>New Pool Hours</td>
+                    <td>Come discuss ideas for new pool hours</td>
+                    <td>
+                        <a href="#">Monday, March 7th, 6 PM</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>HOA</td>
+                    <td>Mandatory HOA meeting</td>
+                    <td>
+                        <a href="#">Monday, March 14th, 6 PM</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Meet our Neighbors</td>
+                    <td>Monthly meeting to mingle and meet your new nightbors</td>
+                    <td>
+                        <a href="#">Monday, March 21st, 6 PM</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fire Safety</td>
+                    <td>Meet our local firemen to discuss fire safety. Kid friendly!</td>
+                    <td>
+                        <a href="#">Monday, March 28th, 6 PM</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <div class="map">
+            <div class="map-heading">Neighborhood Map</div>
+            <img src="images/neighbourhood-map_0.jpg.crdownload" alt="" class="mapimg">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="bottom">
+            <div class="footinfo">
+                <div class="foothead">Info</div>
+                <div class="location">
+                    <p class="tiny"><i class="fa-solid fa-location-crosshairs"></i> 1800 Main St.</p>
+                </div>
+                <div class="email">
+                    <p class="tiny"><i class="fa-solid fa-envelope"></i>Neighborhood@email.com</p>
+                </div>
+                <div class="office">
+                    <p class="tiny"><i class="fa-solid fa-phone"></i>Office Phone: (555)-555-5555</p>
+                </div>
+            </div>
+            <div class="social">
+                <div class="foothead">Social Media</div>
+                <div class="media">
+                    <a href="#"><p class="tiny"><i class="fa-brands fa-facebook"></i>Facebook</p></a>
+                </div>
+                <div class="media">
+                    <a href="#"><p class="tiny"><i class="fa-brands fa-facebook-messenger"></i>Messenger</p></a>
+                </div>
+                <div class="media">
+                    <a href="#"><p class="tiny"><i class="fa-brands fa-instagram"></i>Instagram</p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
